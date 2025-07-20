@@ -42,7 +42,7 @@
 /* banner section */
 .banner{
     display: flex;
-    gap: 80px;
+    gap: 200px;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
@@ -88,11 +88,10 @@
 .connection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
     gap: 20px;
-   padding: 0 120px;
-   background-color:#FFFFFF;
+    justify-items: center;
+    padding: 0 100px;
+  
 }
 .product-card{
     max-width: 329px;
@@ -127,8 +126,6 @@
     gap: 100px;
    justify-content: center;
     margin-top: 80px;
- }
- .featured-container{
     padding: 20px;
  }
  .featured-container img{
@@ -183,6 +180,7 @@
     }
     .connection{
     grid-template-columns: repeat(1, 1fr);
+    padding: 0 20px;
     }
     .sponsar{
          grid-template-columns: repeat(2, 1fr);
@@ -193,7 +191,13 @@
     }
     .banner{
         padding: 40px;
+        gap: 20px;
     }
+    .featured{
+        gap: 20px;
+       
+    }
+
 
 
    
@@ -205,6 +209,7 @@
     }
     .connection{
     grid-template-columns: repeat(2, 1fr);
+    
     }
     .sponsar{
          grid-template-columns: repeat(3, 1fr);
@@ -213,8 +218,13 @@
          margin-top: 250px;
 
     }
+    .banner{
+        gap: 20px;
+    }
+    .featured{
+        gap: 20px;
+        padding: 20px;
+    }
         
 
-
-   
  }
